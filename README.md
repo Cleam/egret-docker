@@ -26,5 +26,5 @@ docker run --rm cleam/egret:5.2.32 publish ...
 
 ```sh
 # 镜像构建，如，构建egret版本v5.2.32
-docker build --build-arg VERSION="v5.2.32" -t cleam/egret:"5.2.32" .
+docker build --build-arg VERSION=v5.2.32 -t cleam/egret:5.2.32 .
 ```
