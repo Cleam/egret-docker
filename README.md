@@ -6,7 +6,7 @@ egret docker 镜像仓库，我主要用于构建 CI/CD 流程。
 
 ## 使用我构建的镜像
 
-我目前构建了几个版本在[docker 镜像仓库](https://hub.docker.com)
+我目前构建了一些版本在[docker 镜像仓库](https://hub.docker.com/r/cleam/egret)，如有你要的版本可以直接使用：
 
 ```sh
 docker pull cleam/egret:5.2.32 # 5.2.32 为egret版本号
