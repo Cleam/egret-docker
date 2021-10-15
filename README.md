@@ -16,10 +16,10 @@ docker pull cleam/egret:5.2.32 # 5.2.32 为egret版本号
 
 ```sh
 # 查看egret引擎信息
-docker run --rm cleam/egret:5.2.32 info
+docker run --rm cleam/egret:5.2.32 egret info
 
 # egret应用发布
-docker run --rm cleam/egret:5.2.32 publish ...
+docker run --rm cleam/egret:5.2.32 egret publish <...>
 ```
 
 ## 自己构建指定版本镜像
